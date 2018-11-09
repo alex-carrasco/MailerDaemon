@@ -1,0 +1,241 @@
+{
+  "BlacklistCheck": [
+    {
+      "Provider": "SpamCop",
+      "DNSBLList": [
+        {
+          "HostName": "bl.spamcop.net"
+        }
+      ]
+    },
+    {
+      "Provider": "Spamhaus",
+      "DNSBLList": [
+        {
+          "HostName": "pbl.spamhaus.org"
+        },
+        {
+          "HostName": "sbl.spamhaus.org"
+        },
+        {
+          "HostName": "sbl-xbl.spamhaus.org"
+        },
+        {
+          "HostName": "xbl.spamhaus.org"
+        },
+        {
+          "HostName": "zen.spamhaus.org"
+        }
+      ]
+    },
+    {
+      "Provider": "SORBS",
+      "DNSBLList": [
+        {
+          "HostName": "dnsbl.sorbs.net"
+        },
+        {
+          "HostName": "problems.dnsbl.sorbs.net"
+        },
+        {
+          "HostName": "proxies.dnsbl.sorbs.net"
+        },
+        {
+          "HostName": "relays.dnsbl.sorbs.net"
+        },
+        {
+          "HostName": "safe.dnsbl.sorbs.net"
+        },
+        {
+          "HostName": "nomail.rhsbl.sorbs.net"
+        },
+        {
+          "HostName": "badconf.rhsbl.sorbs.net"
+        },
+        {
+          "HostName": "dul.dnsbl.sorbs.net"
+        },
+        {
+          "HostName": "zombie.dnsbl.sorbs.net"
+        },
+        {
+          "HostName": "block.dnsbl.sorbs.net"
+        },
+        {
+          "HostName": "escalations.dnsbl.sorbs.net"
+        },
+        {
+          "HostName": "http.dnsbl.sorbs.net"
+        },
+        {
+          "HostName": "misc.dnsbl.sorbs.net"
+        },
+        {
+          "HostName": "smtp.dnsbl.sorbs.net"
+        },
+        {
+          "HostName": "socks.dnsbl.sorbs.net"
+        },
+        {
+          "HostName": "rhsbl.sorbs.net"
+        },
+        {
+          "HostName": "spam.dnsbl.sorbs.net"
+        },
+        {
+          "HostName": "recent.spam.dnsbl.sorbs.net"
+        },
+        {
+          "HostName": "new.spam.dnsbl.sorbs.net"
+        },
+        {
+          "HostName": "old.spam.dnsbl.sorbs.net"
+        },
+        {
+          "HostName": "web.dnsbl.sorbs.net"
+        }
+      ]
+    },
+    {
+      "Provider": "(A)SPEWS",
+      "DNSBLList": [
+        {
+          "HostName": "11.spews.dnsbl.sorbs.net"
+        },
+        {
+          "HostName": "12.spews.dnsbl.sorbs.net"
+        },
+        {
+          "HostName": "aspews.ext.sorbs.net"
+        }
+      ]
+    },
+    {
+      "Provider": "SpamEatingMonkey",
+      "DNSBLList": [
+        {
+          "HostName": "backscatter.spameatingmoney.net"
+        },
+        {
+          "HostName": "bl.spameatingmonkey.net"
+        },
+        {
+          "HostName": "netbl.spameatingmonkey.net"
+        }
+      ]
+    },
+    {
+      "Provider": "UCEProtect",
+      "DNSBLList": [
+        {
+          "HostName": "dnsbl-1.uceprotect.net"
+        },
+        {
+          "HostName": "dnsbl-2.uceprotect.net"
+        },
+        {
+          "HostName": "dnsbl-3.uceprotect.net"
+        }
+      ]
+    },
+    {
+      "Provider": "Backscatterer",
+      "DNSBLList": [
+        {
+          "HostName": "ips.backscatterer.org"
+        }
+      ]
+    },
+    {
+      "Provider": "TRUNCATE",
+      "DNSBLList": [
+        {
+          "HostName": "truncate.gbudb.net"
+        }
+      ]
+    },
+    {
+      "Provider": "IBM DNS Blacklist",
+      "DNSBLList": [
+        {
+          "HostName": "dnsbl.cobion.com"
+        }
+      ]
+    },
+    {
+      "Provider": "SenderScore",
+      "DNSBLList": [
+        {
+          "HostName": "bl.score.senderscore.com"
+        }
+      ]
+    },
+    {
+      "Provider": "SenderBase",
+      "DNSBLList": [
+        {
+          "HostName": "query.senderbase.org"
+        },
+        {
+          "HostName": "rf.senderbase.org"
+        }
+      ]
+    },
+    {
+      "Provider": "Microsoft Forefront DNSBL",
+      "DNSBLList": [
+        {
+          "HostName": "dnsbl.forefront.microsoft.com"
+        }
+      ]
+    },
+    {
+      "Provider": "McAfee RBL",
+      "DNSBLList": [
+        {
+          "HostName": "cidr.bl.mcafee.com"
+        }
+      ]
+    },
+    {
+      "Provider": "Barracuda BRBL",
+      "DNSBLList": [
+        {
+          "HostName": "b.barracudacentral.org"
+        }
+      ]
+    },
+    {
+      "Provider": "Lashback UBL",
+      "DNSBLList": [
+        {
+          "HostName": "ubl.unsubscore.com"
+        }
+      ]
+    },
+    {
+      "Provider": "WPBL",
+      "DNSBLList": [
+        {
+          "HostName": "db.wpbl.info"
+        }
+      ]
+    },
+    {
+      "Provider": "MegaRBL",
+      "DNSBLList": [
+        {
+          "HostName": "rbl.megarbl.net"
+        }
+      ]
+    },
+    {
+      "Provider": "Mailspike",
+      "DNSBLList": [
+        {
+          "HostName": "bl.mailspike.net"
+        }
+      ]
+    }
+  ]
+}

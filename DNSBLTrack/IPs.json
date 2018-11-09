@@ -1,0 +1,22 @@
+{
+  "ProviderCheck": [
+    {
+      "ESP": "SendGrid",
+      "IPList": [
+        {
+          "IP": "",
+          "HostName": ""
+        }
+      ]
+    },
+    {
+      "ESP": "MailChimp",
+      "IPList": [
+        {
+          "IP": "",
+          "HostName": ""
+        }
+      ]
+    }
+  ]
+}
